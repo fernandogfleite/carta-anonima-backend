@@ -1,0 +1,90 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
+
+.env
+.env.*
+
+# IDE
+
+.vscode/
+.idea/
+
+# Logs
+
+*.log
+
+# Database
+
+*.db
+*.sqlite3
+
+# Alembic
+
+alembic/versions/*.pyc
+
+# Pytest
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Mypy
+
+.mypy_cache/
+
+# Ruff
+
+.ruff_cache/
+
+# Pyright
+
+.pyright/
+
+# Build
+
+build/
+dist/
+*.egg-info/
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Coverage
+
+coverage.xml
+
+# Cache
+
+.cache/
+
+# FastAPI uploads/temp
+
+uploads/
+tmp/
+temp/
+
+# Poetry
+
+poetry.lock
+
+# UV
+
+.uv/
+
+# Jupyter
+
+.ipynb_checkpoints/
