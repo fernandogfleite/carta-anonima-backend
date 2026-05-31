@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for carta-anonima-backend on 2026-05-31T02:47:34Z
+# fly.toml app configuration file generated for carta-anonima-backend on 2026-05-31T03:02:32Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -13,7 +13,7 @@ primary_region = 'gru'
   PORT = '8000'
 
 [http_service]
-  internal_port = 8000
+  internal_port = 8080
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
